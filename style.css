@@ -1,0 +1,73 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* background-color: RGB(255, 217, 228); */
+    background-image: url(image/cielo.jpg);
+    object-fit: cover;
+    background-size: cover;
+    color: RGB(186, 156, 202)
+}
+
+.boutton:hover {
+    color: rgb(233, 166, 210) !important;
+    box-shadow: 0 4px 16px rgba(131, 231, 231, 0.932);
+    transition: all 0.2s ease;
+}
+
+.container {
+    width: fit-content;
+    padding: 32px 0px 47px 0px;
+    border: double RGB(242, 237, 188);
+    border-radius: 10%;
+    background-color: RGB(245, 222, 227);
+    /* background-color: transparent; */
+    margin: 50px auto;
+
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+.r {
+    content: "\00AE";
+    font-size: 10px;
+}
+
+
+input {
+    font-size: 30px;
+    width: 64px;
+    height: 54px;
+    border-radius: 25%;
+    border: solid 2px RGB(243, 200, 210);
+    background-color: RGB(251, 239, 227);
+    cursor: pointer;
+    color: RGB(187, 161, 206);
+
+}
+
+.value {
+    justify-content: center;
+
+
+}
+
+.res {
+    width: 73%;
+    border-radius: 0;
+    background-color: RGB(250, 247, 234);
+    /* background-image: url(image/cielo.jpg); */
+    text-align: end;
+
+}
+
+.C {
+    background-color: RGB(116, 170, 170);
+}

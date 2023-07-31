@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <script type="text/javascript"  src="./js/calculator.js" charset="UTF-8"></script>
+        <link rel="stylesheet" href="style.css">
+
+        <script>
+          
+        </script>
+    </head>
+    <body>
+        <div class="container d-flex">
+            <h2>CASIO<span class="r">&#174</span></h2>
+            <div class="row">
+        <input class="res" type="text" id="screen" />
+    </div>
+        <br>
+        <br>
+        <div class="row">
+        <input class="boutton" type="button" value="1" onclick="addSymbol('1')" />
+        <input class="boutton" type="button" value="2" onclick="addSymbol('2')" />
+        <input class="boutton"type="button" value="3" onclick="addSymbol('3')" />
+        <input class="boutton"type="button" value="+" onclick="addSymbol('+')" />
+        </div>
+        <br>
+        <div class="row">
+        <input class="boutton" type="button" value="4" onclick="addSymbol('4')" />
+        <input class="boutton" type="button" value="5" onclick="addSymbol('5')" />
+        <input class="boutton" type="button" value="6" onclick="addSymbol('6')" />
+        <input class="boutton" type="button" value="-" onclick="addSymbol('-')" />
+        </div>
+        <br>
+        <div class="row">
+        <input class="boutton" type="button" value="7" onclick="addSymbol('7')" />
+        <input class="boutton" type="button" value="8" onclick="addSymbol('8')" />
+        <input class="boutton" type="button" value="9" onclick="addSymbol('9')" />
+        <input class="boutton" type="button" value="*" onclick="addSymbol('*')" />
+        </div>
+        <br>
+        <div class="row">
+        <input class="boutton" type="button" value="=" onclick="calculate()" />
+        <input class="boutton" class="C" type="button" value="C" onclick="clearScreen()" />
+        <input class="boutton" type="button" value="0" onclick="addSymbol('0')" />
+        <input class="boutton" type="button" value="/" onclick="addSymbol('/')" />
+    </div>
+    </div>
+    </body>
+</html>
